@@ -1,0 +1,194 @@
+/* Universal selector */
+* {
+    box-sizing: border-box;
+}
+
+/* Element selector */
+body {
+    font-family: Arial, sans-serif;
+    color: #222222;
+    background-color: #f4f7fb;
+    margin: 0;
+    padding: 0;
+}
+
+/* Element selector */
+header {
+    background-color: #1f3c88;
+    color: white;
+    padding: 20px;
+    border-bottom: 4px solid #0f2557;
+}
+
+/* Class selector */
+.tagline {
+    font-style: italic;
+    margin-top: 5px;
+}
+
+/* Element selector */
+nav {
+    margin-top: 15px;
+}
+
+/* Descendant selector */
+nav ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+/* Class selector */
+.nav-list li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+/* Pseudo-class selector */
+a:hover {
+    color: #ffd166;
+}
+
+/* Element selector */
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Element selector */
+main {
+    padding: 20px;
+}
+
+/* Class selector */
+.card {
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #d9e2f2;
+    max-width: 900px;
+}
+
+/* ID selector */
+#currentDate {
+    margin-top: 12px;
+    padding: 8px;
+    border: 1px solid white;
+    background-color: #3558a8;
+    display: inline-block;
+}
+
+/* Element selector */
+h1, h2, h3 {
+    margin-bottom: 10px;
+}
+
+/* Class selector */
+.highlight {
+    background-color: #fff3bf;
+    padding: 2px 4px;
+}
+
+/* Descendant selector */
+section p {
+    line-height: 1.6;
+}
+
+/* Element selector */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+/* Element selector */
+caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Element selector */
+th, td {
+    border: 1px solid #999999;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Element selector */
+th {
+    background-color: #dbe7ff;
+}
+
+/* Element selector */
+ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+}
+
+/* Element selector */
+ul {
+    list-style-type: square;
+}
+
+/* Element selector */
+img {
+    max-width: 100%;
+    border: 2px solid #1f3c88;
+    padding: 4px;
+}
+
+/* Class selector */
+.media-item {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+/* Descendant selector */
+form label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+/* Element selector */
+input, textarea, select, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    border: 1px solid #888888;
+    font-family: Arial, sans-serif;
+}
+
+/* Element selector */
+button {
+    background-color: #1f3c88;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Pseudo-class selector */
+button:hover {
+    background-color: #3558a8;
+}
+
+/* ID selector */
+#top {
+    scroll-margin-top: 20px;
+}
+
+/* Element selector */
+footer {
+    background-color: #1f3c88;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+/* Class selector */
+.signature {
+    font-style: italic;
+    color: #1f3c88;
+}
